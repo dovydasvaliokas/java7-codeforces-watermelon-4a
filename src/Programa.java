@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Programa {
     public static void main(String[] args) {
         Scanner skaitytuvas = new Scanner(System.in);
-        short w = skaitytuvas.nextShort();          // arbūzo svoris
+        byte w = skaitytuvas.nextShort();          // arbūzo svoris
 
         System.out.println(konvertuojaYesIrNo(arSkaiciusLyginisIrNeDvejetas(w)));
 
